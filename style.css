@@ -1,0 +1,54 @@
+/* general styling */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+/* bio section */
+.bio-section{
+    background-color: lightblue;
+    text-align: justify;
+}
+
+.bio{
+    color: navy;
+}
+
+/* fun facts section */
+.fun-section{
+    background-color: lightyellow;
+    text-align: justify;
+}
+
+.fun-header{
+    color:darkgoldenrod;
+
+}
+
+/* i and h section */
+.interests-hobbies-section{
+    background-color: lightgreen;
+}
+
+.h-i-header{
+    color:darkgreen;
+}
+
+.hobbies-button{
+    background-color: darkgreen;
+    color: white;
+    
+}
+
+.interests-button{
+    background-color: darkgreen;
+    color: white;
+}
