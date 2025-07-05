@@ -2,14 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-  <title> About Me</title>
+  <title> About Me Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <script src="script.js"></script>
 
-    <h1 class ="about-me-header"> About Me</h1>
+    <h1 class ="about-me-header"> About Me Page</h1>
     
      <div class ="bio-section"> 
             <h2 class ="bio"> bio </h2>
@@ -18,7 +17,7 @@
                 <p> 📚 Education: Undergrad at Hult Business School </p>
                 <p> 👤 Contact Info: mbicalho821@gmail.com | 
                      <a href = "https://spice-floor-8a6.notion.site/Marcela-Marques-Bicalho-Data-Strategy-Portfolio-1f1cb013343980498ae5f015e4d339e4"> Data Portfolio</a> |
-                    <a href = "www.linkedin.com/in/marcela-marques-bicalho"> LinkedIn</a> 
+                    <a href = "https://www.linkedin.com/in/marcela-marques-bicalho/" > LinkedIn </a> 
                     | <a href = "https://github.com/marcelambicalho"> GitHub</a> </p>
     </div>
 
@@ -36,39 +35,40 @@
         <div class ="interests-hobbies-section">
             <h2 class="h-i-header"> (more) about me</h2>
             <div class ="button-section"> 
-            <button class="hobbies-button"> Hobbies</button>
-            <button class="interests-button"> Interests </button>
+            <button class="hobbies-button" data-target="hob-p"> Hobbies</button>
+            <button class="interests-button" data-target="int-p"> Interests </button>
             </div>
 
             <div class="hobbies-paragraph">
 
                 <div class ="d"> 
-                     <img class ="draw" src = "https://i.pinimg.com/736x/cc/4d/49/cc4d49514858a0fa544a9c3825a080bc.jpg" alt = "drawing"> 
-                    <p> Drawing </p> 
+                     <img class ="draw hob-p" src = "https://i.pinimg.com/736x/cc/4d/49/cc4d49514858a0fa544a9c3825a080bc.jpg" alt = "drawing"> 
+                    <p class="hob-p"> Drawing </p> 
                 </div>
 
                 <div class="p">
-                    <img class="paint" src = "https://i.pinimg.com/736x/92/11/f0/9211f09b9f18a520d54ff760715ce70d.jpg" alt = "painting">
-                    <p> Painting </p> 
+                    <img class="paint hob-p" src = "https://i.pinimg.com/736x/92/11/f0/9211f09b9f18a520d54ff760715ce70d.jpg" alt = "painting">
+                    <p class="hob-p"> Painting </p> 
                 </div>
 
                 <div class="r"> 
-                <img class="read" src = "https://i.pinimg.com/736x/a2/6a/27/a26a27a5ff6a2cb80d5b872a73d1413b.jpg" alt = "reading">
-                    <p> Reading </p> 
+                <img class="read hob-p" src = "https://i.pinimg.com/736x/a2/6a/27/a26a27a5ff6a2cb80d5b872a73d1413b.jpg" alt = "reading">
+                    <p class="hob-p"> Reading </p> 
                 </div>  
 
-                <p> Listening to Music </p> 
             </div>
-<p> _______</p>
 
             <div class="interests-section">
-                <p> Data Analysis</p> 
-                <p> Design and Digital Art </p>   
-                <p> Sustainability & Environmental Justice</p>   
-                <p> Language Learning </p>  
-                <p> Social Impact</p> 
+                <p class="int-p"> Data Analysis</p> 
+                <p class="int-p"> Design and Digital Art </p>   
+                <p class="int-p"> Sustainability & Environmental Justice</p>   
+                <p class="int-p"> Language Learning </p>  
+                <p class="int-p"> Social Impact</p> 
             </div>
 
         </div>
+
+<script src="script.js"></script>
+
 </body>
 </html> 
